@@ -40,7 +40,7 @@ void ContaBancaria::transferir(double valor, ContaBancaria &destino){
 void ContaBancaria::transferir(double valor, ContaBancaria &destino1, ContaBancaria &destino2){
     if (valor <= saldo){
         saldo -= valor;
-        int valorfinal;
+        double valorfinal;
         valorfinal = valor / 2;
         destino1.depositar(valorfinal);
         destino2.depositar(valorfinal);
