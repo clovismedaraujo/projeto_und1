@@ -20,43 +20,9 @@ Este projeto é uma simulação de um sistema bancário simples em C++, que util
 
 ## 🧠 Conceitos aplicados
 
-- Encapsulamento (`private`/`public`)
+- Encapsulamento 
 - Construtores personalizados
 - Sobrecarga de métodos
-- Separação de interface (`.h`) e implementação (`.cpp`)
-- Compilação automatizada com `Makefile`
+- Separação de interface  e implementação 
+- Compilação automatizada com Makefile
 
----
-
-## 📁 Estrutura do Projeto
-
-.
-├── Cliente.h
-├── Cliente.cpp
-├── ContaBancaria.h
-├── ContaBancaria.cpp
-├── sistbancario.cpp # Função main()
-├── Makefile
-└── README.md
-
-yaml
-Copiar
-Editar
-
----
-
-## 🚀 Como compilar e executar
-
-### 1. Compilar com `make`:
-```bash
-make
-2. Executar o programa:
-bash
-Copiar
-Editar
-./sistbancario
-3. Limpar os arquivos objetos e o executável:
-bash
-Copiar
-Editar
-make clean
